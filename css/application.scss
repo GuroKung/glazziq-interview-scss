@@ -1,0 +1,18 @@
+@import "normalize";
+@import "pure-min";
+
+.main-col {
+  @extend .pure-u-1-2;
+}
+
+.main-col .content {
+  @extend .pure-g;
+}
+
+.main-col .unit-lg {
+  @extend .pure-u-1-1;
+}
+
+.main-col .unit-sm {
+  @extend .pure-u-1-2;
+}
